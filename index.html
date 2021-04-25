@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>To do list</title>
+</head>
+<body>
+    <div class="to-do-wrapper">
+        <header>
+            <h1>To do list</h1>
+        </header>
+        <form>
+            <input type="text" class="to-do-input" placeholder="Add your new task">
+            <button type="submit" class="to-do-button">
+                <i class="fas fa-plus"></i>
+            </button>
+        </form>
+        <div class="to-do-container">
+            <ul class="to-do-list"></ul>
+        </div>
+        <div class="to-do-footer">
+            <span class="count">You have 0 task.</span>
+            <button class="to-do-clear">Clear all</button>
+        </div>
+    </div>
+    <!-- Javascripts -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
